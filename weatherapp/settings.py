@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-4^j=9$ljl57t=2tfw%ql*_g_@&1god1m*mjiimuxh*9z(fqd@_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app','127.0.0.1']
+ALLOWED_HOSTS = ['.vercel.app']
 
 
 # Application definition
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'weatherapp.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ["weather/templates",],
+        'DIRS': ["weather/templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
