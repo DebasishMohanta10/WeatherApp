@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background-image: url('/static/tokyo-skyline-with-rainbow-bridge-tokyo-tower-tokyo-japan.jpg');
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#location-box{
+    background-color: #fff;
+    height: 360px;
+    width: 450px;
+    margin: 50px auto 0 auto;
+    filter: opacity(70%);
+    border-radius: 20px;
+}
+
+#title{
+    font-weight: 900;
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 5px 5px 20px lightgray;
+}
