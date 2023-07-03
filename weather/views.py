@@ -2,7 +2,6 @@ from django.shortcuts import render
 import requests
 import json
 import datetime 
-from django.http import HttpResponse
 
 def get_ip_geolocation_data(ip_address):
     response = requests.get("https://ipgeolocation.abstractapi.com/v1/?api_key=c0d666385dc942f9b47b9e7c15037db7")
